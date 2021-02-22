@@ -20,4 +20,7 @@ module.exports.mongodb = {
 	default: ''
 };
 
+/**
+ * Telegram bot
+ */
 module.exports.telegram_bot = {};
