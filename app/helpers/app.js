@@ -19,7 +19,7 @@ module.exports.html_decode = function(str) {
 /**
  * Sleep
  */
-module.exports.sleep = function(){
+module.exports.sleep = function(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
