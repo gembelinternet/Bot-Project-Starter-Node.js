@@ -24,6 +24,8 @@
 		"mongodb": "^3.6.4",
 		"morgan": "~1.9.1",
 		"node-cron": "^2.0.3",
+		"random-http-useragent": "^1.1.33",
+		"random-useragent": "^0.5.0",
 		"rethinkdb": "^2.4.2",
 		"socket.io": "^3.1.1",
 		"telegraf": "^4.0.3",
