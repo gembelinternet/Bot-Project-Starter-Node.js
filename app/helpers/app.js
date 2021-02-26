@@ -66,7 +66,7 @@ module.exports.isValidJSON = function(JSONorObject) {
  * @param      {string}   text    The text
  * @return     {boolean}
  */
-module.exports = function validUTF8(text) {
+module.exports.validUTF8 = function(text) {
 	try {
 		decodeURIComponent(escape(text));
 		return true;
