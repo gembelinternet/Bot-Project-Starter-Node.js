@@ -61,6 +61,21 @@ module.exports.isValidJSON = function(JSONorObject) {
 };
 
 /**
+ * Valid UTF-8
+ *
+ * @param      {string}   text    The text
+ * @return     {boolean}
+ */
+module.exports = function validUTF8(text) {
+	try {
+		decodeURIComponent(escape(text));
+		return true;
+	} catch(e) {
+		return false;
+    }
+}
+
+/**
  * Promise handler
  */
 module.exports.promise = function(error) {
